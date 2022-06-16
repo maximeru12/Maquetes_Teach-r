@@ -10,7 +10,8 @@ div {
     height: 100%;
     float: left;
     width: 30%;
-    background-color: lightblue;
+    padding: 10px;
+    background-color: #f4f5fa;
 }
 .div_principale {
     position: fixed;
@@ -18,12 +19,45 @@ div {
     left: 30%;
     width: 70%;
     text-align: center;
-    background-color: lightgray;
+    background-color: white;
 }
 
 .logo {
     margin: 10px;
     position: fixed;
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 8%;
+}
+
+.div_logo_livre .logo_livre {
+    position: fixed;
+    top: 58%;
+}
+
+.logo_livre {
+    margin: 10px;
+    position: fixed;
+    width: 26%;
+    height: 39%;
+}
+
+.avancement {
+    padding: 10px;
+    font-size: 40px;
+    position: fixed;
+    top: 18%;
+    color: #0E4F99;
+}
+
+.avancement ul {
+    list-style-type: none;
+}
+
+.avancement .check {
+    color: grey;
+}
+
+.fa-check-circle{
+    font-size:40px;
+    color:limegreen;
 }
