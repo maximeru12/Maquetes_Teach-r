@@ -1,0 +1,29 @@
+﻿body {
+    margin: 0px;
+}
+
+div {
+}
+
+.collone_gauche {
+    position: fixed;
+    height: 100%;
+    float: left;
+    width: 30%;
+    background-color: lightblue;
+}
+.div_principale {
+    position: fixed;
+    height: 100%;
+    left: 30%;
+    width: 70%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.logo {
+    margin: 10px;
+    position: fixed;
+    width: 10%;
+    height: 10%;
+}
